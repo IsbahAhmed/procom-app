@@ -1,0 +1,20 @@
+.auth-page{
+height: 100vh;
+background-color: var(--bs-gray-100);
+}
+.auth-page > .row{
+    height: 100%;
+}
+.auth-right{
+    background: linear-gradient(#0eca98cc,#0eca98cc) ,url("../../assets/image.jpg");
+    background-size: 100% 100% , cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    color: white;
+    text-align: center;
+}
+.main-auth{
+    text-align: center;
+}

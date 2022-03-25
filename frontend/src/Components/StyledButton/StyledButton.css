@@ -1,0 +1,32 @@
+button.styled-button{
+    border-radius: 30px !important;
+    border-color: transparent;
+    transition: all 100ms ease-in-out;
+    min-width: 130px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--font-bold) !important;
+    min-height: 50px;
+}
+.styled-button:active{
+    transform: scale(0.99) !important;
+    box-shadow: none !important;
+}
+.styled-button:hover{
+    background-color: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+    transform: scale(1.05);
+}
+.btn-primary{
+    background-color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+}
+.btn-white-lined{
+    border:2px solid white !important;
+    color: white !important; 
+}
+.btn-white-lined:hover{
+    border-color: white;
+}
